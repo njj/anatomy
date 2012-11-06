@@ -107,11 +107,15 @@
     line-height: 50px;
   }
 
+  .logo {
+    font-weight: 300;
+  }
+
 /*   Listings
 =================*/
 
   ul, ol {
-    margin: 0 0 10px 25px;
+    margin: 0 0 10px 0px;
   }
   ul {
     list-style: none outside;
