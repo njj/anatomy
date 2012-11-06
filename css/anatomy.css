@@ -2,6 +2,7 @@
   +-+-+-+-+-+-+-+
   |a|n|a|t|o|m|y|
   +-+-+-+-+-+-+-+
+  github.com/niix
                  */
 
 /*    General
@@ -186,90 +187,154 @@
 
   .container {
     position: relative;
-    width: 960px;
+    width: 940px;
     margin: 0 auto;
     padding: 0;
   }
   .row {
-    margin-bottom: 20px;
+    margin-left: -20px;
+    *zoom: 1;
   }
   [class="twelve"], [class="eleven"], [class="ten"],
   [class="nine"],   [class="eight"],  [class="seven"],
   [class="six"],    [class="five"],   [class="four"],
   [class="three"],  [class="two"],    [class="one"] {
-  float: left;
-  min-height: 1px;
-  margin-left: 20px;
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
   }
-  .twelve {
-    width: 940px;
+  .twelve { width: 940px; }
+  .eleven { width: 860px; }
+  .ten    { width: 780px; }
+  .nine   { width: 700px; }
+  .eight  { width: 620px; }
+  .seven  { width: 540px; }
+  .six    { width: 460px; }
+  .five   { width: 380px; }
+  .four   { width: 300px; }
+  .three  { width: 220px; }
+  .two    { width: 140px; }
+  .one    { width: 60px;  }
+
+  .bump-twelve { margin-left: 980px; }
+  .bump-eleven { margin-left: 900px; }
+  .bump-ten    { margin-left: 820px; }
+  .bump-nine   { margin-left: 740px; }
+  .bump-eight  { margin-left: 660px; }
+  .bump-seven  { margin-left: 580px; }
+  .bump-six    { margin-left: 500px; }
+  .bump-five   { margin-left: 420px; }
+  .bump-four   { margin-left: 340px; }
+  .bump-three  { margin-left: 260px; }
+  .bump-two    { margin-left: 180px; }
+  .bump-one    { margin-left: 100px; }
+
+/* Tablet Portait */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px;
   }
-  .eleven {
-    width: 860px;
+  [class="twelve"], [class="eleven"], [class="ten"],
+  [class="nine"],   [class="eight"],  [class="seven"],
+  [class="six"],    [class="five"],   [class="four"],
+  [class="three"],  [class="two"],    [class="one"] {
+    margin-left: 20px;
   }
-  .ten {
-    width: 780px;
+  .twelve { width: 724px; }
+  .eleven { width: 662px; }
+  .ten    { width: 600px; }
+  .nine   { width: 538px; }
+  .eight  { width: 476px; }
+  .seven  { width: 414px; }
+  .six    { width: 352px; }
+  .five   { width: 290px; }
+  .four   { width: 228px; }
+  .three  { width: 166px; }
+  .two    { width: 104px; }
+  .one    { width: 42px;  }
+}
+
+/* Mobile Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 420px;
   }
-  .nine {
-    width: 700px;
+  [class="twelve"], [class="eleven"], [class="ten"],
+  [class="nine"],   [class="eight"],  [class="seven"],
+  [class="six"],    [class="five"],   [class="four"],
+  [class="three"],  [class="two"],    [class="one"] {
+    margin-left: 20px;
   }
-  .eight {
-    width: 620px;
+  .twelve, 
+  .eleven, 
+  .ten, 
+  .nine, 
+  .eight, 
+  .seven, 
+  .six, 
+  .five, 
+  .four, 
+  .three, 
+  .two, 
+  .one { 
+    width: 420px; 
   }
-  .seven {
-    width: 540px;
-  }
-  .six {
-    width: 460px;
-  }
-  .five {
-    width: 380px;
-  }
-  .four {
+}
+
+/* Mobile Portrait */
+@media only screen and (max-width: 767px) {
+  .container {
     width: 300px;
   }
-  .three {
-    width: 220px;
+  [class="twelve"], [class="eleven"], [class="ten"],
+  [class="nine"],   [class="eight"],  [class="seven"],
+  [class="six"],    [class="five"],   [class="four"],
+  [class="three"],  [class="two"],    [class="one"] {
+    margin-left: 20px;
   }
-  .two {
-    width: 140px;
+  .twelve, 
+  .eleven, 
+  .ten, 
+  .nine, 
+  .eight, 
+  .seven, 
+  .six, 
+  .five, 
+  .four, 
+  .three, 
+  .two, 
+  .one { 
+    width: 300px; 
   }
-  .one {
-    width: 60px;
+
+  .bump-twelve,
+  .bump-eleven,
+  .bump-ten,
+  .bump-nine,
+  .bump-eight,
+  .bump-seven,
+  .bump-six,
+  .bump-five,
+  .bump-four,
+  .bump-three,
+  .bump-two,
+  .bump-one { 
+    margin-left: 0px; 
   }
-  .bump-twelve {
-    margin-left: 980px;
+
+  /* Nav for portait mobile view */
+  .nav {
+    vertical-align: center;
+    width: 100%;
+    margin: 0px auto;
   }
-  .bump-eleven {
-    margin-left: 900px;
+  .nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
   }
-  .bump-ten {
-    margin-left: 820px;
+  .logo {
+    text-align: center;
   }
-  .bump-nine {
-    margin-left: 740px;
-  }
-  .bump-eight {
-    margin-left: 660px;
-  }
-  .bump-seven {
-    margin-left: 580px;
-  }
-  .bump-six {
-    margin-left: 500px;
-  }
-  .bump-five {
-    margin-left: 420px;
-  }
-  .bump-four {
-    margin-left: 340px;
-  }
-  .bump-three {
-    margin-left: 260px;
-  }
-  .bump-two {
-    margin-left: 180px;
-  }
-  .bump-one {
-    margin-left: 100px;
-  }
+}
