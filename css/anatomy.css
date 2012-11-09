@@ -30,7 +30,7 @@
   a:hover,
   a:focus {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
   }
   p a,
   p a:visited {
@@ -180,6 +180,41 @@
     padding-right: 5px;
     border-right: 0px solid #fff;
     border-left: 1px solid #DDD;
+  }
+
+/*    Buttons
+=================*/
+
+  .button,
+  button
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    background: #eee;
+    border: 1px solid #aaa;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-radius: 3px;
+    color: #363636;
+    text-shadow: 0 1px rgba(255, 255, 255, .75);
+    padding: .15em;
+    margin-bottom: 20px;
+  }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover {
+    color: #222;
+    background: #ddd;
+    text-decoration: none;
+  }
+  .button:active,
+  button:active,
+  input[type="submut"]:active,
+  input[type="reset"]:active,
+  input[type="button"]:active {
+    border: 1px solid #666;
   }
 
 /*  The Anatomy
