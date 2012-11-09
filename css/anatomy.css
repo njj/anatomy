@@ -10,8 +10,7 @@
 
   body {
     background: #FFFFFF;
-    font: 400 14px/1.6 "Open Sans", sans-serif;
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 400 14px/1.6 "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 14px; */
     line-height: 20px;
     color: #363636;
@@ -215,6 +214,72 @@
   input[type="reset"]:active,
   input[type="button"]:active {
     border: 1px solid #666;
+  }
+
+/*    Forms
+=================*/
+
+  form {
+    margin-bottom: 25px;
+  }
+  fieldset {
+    margin-bottom: 25px;
+  }
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  textarea,
+  select {
+    text-align: left;
+    font: inherit;
+    font-size: 13px;
+    border: 1px solid #d6d6d6;
+    padding: 2px 3px;
+    outline: none;
+    border-radius: 2px;
+    color: #666;
+    margin: 0;
+    width: 200px;
+    max-width: 100%;
+    display: block;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  input[type="email"]:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  textarea:focus {
+    border: 1px solid #999;
+    color: #363636;
+  }
+  input[type="checkbox"] {
+    display: inline;
+  }
+  textarea {
+    min-height: 50px;
+  }
+  legend,
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  select {
+    width: 210px;
+  }
+  input[type="email"]:hover,
+  input[type="text"]:hover,
+  input[type="password"]:hover,
+  textarea:hover,
+  select:hover
+  option:hover {
+    background-color: #FAFAFA;
+  }
+  label span,
+  legend span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #444;
   }
 
 /*  The Anatomy
