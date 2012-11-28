@@ -10,8 +10,7 @@
 
   body {
     background: #FFFFFF;
-    font: 400 14px/1.6 "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font: 300 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 20px;
     color: #363636;
     -webkit-font-smooth: antialiased;
@@ -230,7 +229,6 @@
   input[type="password"],
   textarea,
   select {
-    text-align: left;
     font: inherit;
     font-size: 13px;
     border: 1px solid #d6d6d6;
@@ -265,6 +263,7 @@
     font-size: 13px;
   }
   select {
+    padding: 0;
     width: 210px;
   }
   input[type="email"]:hover,
@@ -437,4 +436,3 @@
   .logo {
     text-align: center;
   }
-}
