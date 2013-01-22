@@ -1,0 +1,22 @@
+{
+  "name": "anatomy",
+  "version": "0.0.0",
+  "description": "Lightweight and responsive front end framework that invokes rapid development.",
+  "scripts": {
+    "test": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niix/anatomy.git"
+  },
+  "keywords": [
+    "'anatomy'",
+    "'front",
+    "end'",
+    "'css'"
+  ],
+  "author": "Nick Justice (niix)",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "fbfa489fdd67de4b86ed40d619db1a489af57699"
+}
