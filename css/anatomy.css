@@ -10,8 +10,7 @@
 
   body {
     background: #FFFFFF;
-    font: 300 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 20px;
+    font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #363636;
     -webkit-font-smooth: antialiased;
     -webkit-text-size-adjust: 100%;
