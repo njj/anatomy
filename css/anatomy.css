@@ -310,10 +310,18 @@
     display: table;
     content: "";
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
     float: left;
     min-height: 1px;
     margin-left: 20px;
@@ -349,10 +357,18 @@
   .container {
     width: 724px;
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
     margin-left: 20px;
   }
   .twelve { width: 724px; }
@@ -374,12 +390,6 @@
   .container {
     width: 420px;
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
-    margin-left: 20px;
-  }
   .twelve,
   .eleven,
   .ten,
@@ -392,6 +402,7 @@
   .three,
   .two,
   .one {
+    margin-left: 20px;
     width: 420px;
   }
 }
@@ -401,12 +412,6 @@
   .container {
     width: 300px;
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
-    margin-left: 20px;
-  }
   .twelve,
   .eleven,
   .ten,
@@ -419,6 +424,7 @@
   .three,
   .two,
   .one {
+    margin-left: 20px;
     width: 300px;
   }
 
