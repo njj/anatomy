@@ -302,6 +302,14 @@
     margin-left: -20px;
     *zoom: 1;
   }
+  .row:after {
+    clear: both;
+  }
+  .row:before, .row:after
+  {
+    display: table;
+    content: "";
+  }
   [class="twelve"], [class="eleven"], [class="ten"],
   [class="nine"],   [class="eight"],  [class="seven"],
   [class="six"],    [class="five"],   [class="four"],
