@@ -86,7 +86,7 @@
     line-height: 4px
   }
 
-  hr { 
+  hr {
     border: solid #d6d6d6;
     border-width: 1px 0px 0px;
     margin: 10px 0px 30px;
@@ -133,20 +133,20 @@
   ul.circle {
     list-style: circle outside;
   }
-  ul ul, 
+  ul ul,
   ul ol,
-  ol ol, 
-  ol ul { 
-    margin-bottom: 0; 
+  ol ol,
+  ol ul {
+    margin-bottom: 0;
   }
-  ul ul li, 
+  ul ul li,
   ul ol li,
-  ol ol li, 
-  ol ul li { 
-    margin-bottom: 0; 
+  ol ol li,
+  ol ul li {
+    margin-bottom: 0;
   }
-  li { 
-    line-height: 20px; 
+  li {
+    line-height: 20px;
   }
 
 /*  Navigation
@@ -372,19 +372,19 @@
   [class="three"],  [class="two"],    [class="one"] {
     margin-left: 20px;
   }
-  .twelve, 
-  .eleven, 
-  .ten, 
-  .nine, 
-  .eight, 
-  .seven, 
-  .six, 
-  .five, 
-  .four, 
-  .three, 
-  .two, 
-  .one { 
-    width: 420px; 
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
+    width: 420px;
   }
 }
 
@@ -399,19 +399,19 @@
   [class="three"],  [class="two"],    [class="one"] {
     margin-left: 20px;
   }
-  .twelve, 
-  .eleven, 
-  .ten, 
-  .nine, 
-  .eight, 
-  .seven, 
-  .six, 
-  .five, 
-  .four, 
-  .three, 
-  .two, 
-  .one { 
-    width: 300px; 
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
+    width: 300px;
   }
 
   .bump-twelve,
@@ -425,8 +425,8 @@
   .bump-four,
   .bump-three,
   .bump-two,
-  .bump-one { 
-    margin-left: 0px; 
+  .bump-one {
+    margin-left: 0px;
   }
 
   /* Nav for portait mobile view */
