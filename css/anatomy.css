@@ -86,7 +86,7 @@
     line-height: 4px
   }
 
-  hr { 
+  hr {
     border: solid #d6d6d6;
     border-width: 1px 0px 0px;
     margin: 10px 0px 30px;
@@ -133,20 +133,20 @@
   ul.circle {
     list-style: circle outside;
   }
-  ul ul, 
+  ul ul,
   ul ol,
-  ol ol, 
-  ol ul { 
-    margin-bottom: 0; 
+  ol ol,
+  ol ul {
+    margin-bottom: 0;
   }
-  ul ul li, 
+  ul ul li,
   ul ol li,
-  ol ol li, 
-  ol ul li { 
-    margin-bottom: 0; 
+  ol ol li,
+  ol ul li {
+    margin-bottom: 0;
   }
-  li { 
-    line-height: 20px; 
+  li {
+    line-height: 20px;
   }
 
 /*  Navigation
@@ -302,10 +302,26 @@
     margin-left: -20px;
     *zoom: 1;
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
+  .row:after {
+    clear: both;
+  }
+  .row:before, .row:after
+  {
+    display: table;
+    content: "";
+  }
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
     float: left;
     min-height: 1px;
     margin-left: 20px;
@@ -341,10 +357,18 @@
   .container {
     width: 724px;
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
     margin-left: 20px;
   }
   .twelve { width: 724px; }
@@ -366,25 +390,20 @@
   .container {
     width: 420px;
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
     margin-left: 20px;
-  }
-  .twelve, 
-  .eleven, 
-  .ten, 
-  .nine, 
-  .eight, 
-  .seven, 
-  .six, 
-  .five, 
-  .four, 
-  .three, 
-  .two, 
-  .one { 
-    width: 420px; 
+    width: 420px;
   }
 }
 
@@ -393,25 +412,20 @@
   .container {
     width: 300px;
   }
-  [class="twelve"], [class="eleven"], [class="ten"],
-  [class="nine"],   [class="eight"],  [class="seven"],
-  [class="six"],    [class="five"],   [class="four"],
-  [class="three"],  [class="two"],    [class="one"] {
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
     margin-left: 20px;
-  }
-  .twelve, 
-  .eleven, 
-  .ten, 
-  .nine, 
-  .eight, 
-  .seven, 
-  .six, 
-  .five, 
-  .four, 
-  .three, 
-  .two, 
-  .one { 
-    width: 300px; 
+    width: 300px;
   }
 
   .bump-twelve,
@@ -425,8 +439,8 @@
   .bump-four,
   .bump-three,
   .bump-two,
-  .bump-one { 
-    margin-left: 0px; 
+  .bump-one {
+    margin-left: 0px;
   }
 
   /* Nav for portait mobile view */
