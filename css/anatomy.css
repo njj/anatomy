@@ -1,0 +1,461 @@
+/*
+  +-+-+-+-+-+-+-+
+  |a|n|a|t|o|m|y|
+  +-+-+-+-+-+-+-+
+  github.com/niix
+                 */
+
+/*    General
+=================*/
+
+  body {
+    background: #FFFFFF;
+    font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #363636;
+    -webkit-font-smooth: antialiased;
+    -webkit-text-size-adjust: 100%;
+  }
+
+/*     Links
+=================*/
+
+  a {
+    color: #818181;
+    text-decoration: none;
+    outline: 0;
+  }
+  a:hover,
+  a:focus {
+    color: #000000;
+    text-decoration: none;
+  }
+  p a,
+  p a:visited {
+    line-height: inherit;
+  }
+
+/*   Typography
+=================*/
+
+  p {
+    margin: 0 0 20px 0;
+  }
+  em {
+    font-style: italic;
+  }
+  strong {
+    font-weight: bold;
+    color: #363636;
+  }
+  small {
+    font-size: 85%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: Century Gothic, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 18px;
+    margin-bottom: 4px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 10px;
+  }
+  h6 {
+    font-size: 16px;
+    line-height: 4px
+  }
+
+  hr {
+    border: solid #d6d6d6;
+    border-width: 1px 0px 0px;
+    margin: 10px 0px 30px;
+    height: 0px;
+    clear: both;
+  }
+
+  .attention {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .attention-large {
+    font-size: 50px;
+    font-weight: inherit;
+    line-height: 50px;
+  }
+
+  .logo {
+    font-weight: 300;
+  }
+
+/*   Listings
+=================*/
+
+  ul, ol {
+    margin: 0 0 10px 0px;
+  }
+  ul {
+    list-style: none outside;
+  }
+  ol {
+    list-style: decimal;
+  }
+  ol, ul.square, ul.cirlce, ul.disc {
+    margin-left: 20px;
+  }
+  ul.disc {
+    list-style: disc outside;
+  }
+  ul.square {
+    list-style: square outside;
+  }
+  ul.circle {
+    list-style: circle outside;
+  }
+  ul ul,
+  ul ol,
+  ol ol,
+  ol ul {
+    margin-bottom: 0;
+  }
+  ul ul li,
+  ul ol li,
+  ol ol li,
+  ol ul li {
+    margin-bottom: 0;
+  }
+  li {
+    line-height: 20px;
+  }
+
+/*  Navigation
+=================*/
+
+  .nav {
+    margin-top: 20px;
+    float: right;
+  }
+  .nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .nav ul li {
+    display: inline;
+  }
+  .nav li a {
+    padding: .2em;
+  }
+  .nav li.active, li:active {
+    outline: 0;
+  }
+  .nav .divider {
+    height: 40px;
+    margin: 1px auto;
+    padding-bottom: .10em;
+    padding-right: 5px;
+    border-right: 0px solid #fff;
+    border-left: 1px solid #DDD;
+  }
+
+/*    Buttons
+=================*/
+
+  .button,
+  button
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    background: #eee;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: #363636;
+    padding: 1em;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover {
+    color: #222;
+    background: #ddd;
+    text-decoration: none;
+  }
+  .button:active,
+  button:active,
+  input[type="submut"]:active,
+  input[type="reset"]:active,
+  input[type="button"]:active {
+    border: 1px solid #666;
+  }
+  button.button-full,
+  .button-full {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+  }
+  button.button-full:active,
+  .button-full:active {
+    width: 100%;
+  }
+
+/*    Forms
+=================*/
+
+  form {
+    margin-bottom: 25px;
+  }
+  fieldset {
+    margin-bottom: 25px;
+  }
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  textarea,
+  select {
+    font: inherit;
+    font-size: 13px;
+    border: 1px solid #d6d6d6;
+    padding: 2px 3px;
+    outline: none;
+    border-radius: 2px;
+    color: #666;
+    margin: 0;
+    width: 200px;
+    max-width: 100%;
+    display: block;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  input[type="email"]:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  textarea:focus {
+    border: 1px solid #999;
+    color: #363636;
+  }
+  input[type="checkbox"] {
+    display: inline;
+  }
+  textarea {
+    min-height: 50px;
+  }
+  legend,
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  select {
+    padding: 0;
+    width: 210px;
+  }
+  input[type="email"]:hover,
+  input[type="text"]:hover,
+  input[type="password"]:hover,
+  textarea:hover,
+  select:hover
+  option:hover {
+    background-color: #FAFAFA;
+  }
+  label span,
+  legend span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #444;
+  }
+
+/*  The Anatomy
+=================*/
+
+  .container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .row {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+  .row:after {
+    clear: both;
+  }
+  .row:before, .row:after
+  {
+    display: table;
+    content: "";
+  }
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+  }
+  .twelve { width: 940px; }
+  .eleven { width: 860px; }
+  .ten    { width: 780px; }
+  .nine   { width: 700px; }
+  .eight  { width: 620px; }
+  .seven  { width: 540px; }
+  .six    { width: 460px; }
+  .five   { width: 380px; }
+  .four   { width: 300px; }
+  .three  { width: 220px; }
+  .two    { width: 140px; }
+  .one    { width: 60px;  }
+
+  .bump-twelve { margin-left: 980px; }
+  .bump-eleven { margin-left: 900px; }
+  .bump-ten    { margin-left: 820px; }
+  .bump-nine   { margin-left: 740px; }
+  .bump-eight  { margin-left: 660px; }
+  .bump-seven  { margin-left: 580px; }
+  .bump-six    { margin-left: 500px; }
+  .bump-five   { margin-left: 420px; }
+  .bump-four   { margin-left: 340px; }
+  .bump-three  { margin-left: 260px; }
+  .bump-two    { margin-left: 180px; }
+  .bump-one    { margin-left: 100px; }
+
+/* Tablet Portait */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px;
+  }
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
+    margin-left: 20px;
+  }
+  .twelve { width: 724px; }
+  .eleven { width: 662px; }
+  .ten    { width: 600px; }
+  .nine   { width: 538px; }
+  .eight  { width: 476px; }
+  .seven  { width: 414px; }
+  .six    { width: 352px; }
+  .five   { width: 290px; }
+  .four   { width: 228px; }
+  .three  { width: 166px; }
+  .two    { width: 104px; }
+  .one    { width: 42px;  }
+}
+
+/* Mobile Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 420px;
+  }
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
+    margin-left: 20px;
+    width: 420px;
+  }
+}
+
+/* Mobile Portrait */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .four,
+  .three,
+  .two,
+  .one {
+    margin-left: 20px;
+    width: 300px;
+  }
+
+  .bump-twelve,
+  .bump-eleven,
+  .bump-ten,
+  .bump-nine,
+  .bump-eight,
+  .bump-seven,
+  .bump-six,
+  .bump-five,
+  .bump-four,
+  .bump-three,
+  .bump-two,
+  .bump-one {
+    margin-left: 0px;
+  }
+
+  /* Nav for portait mobile view */
+  .nav {
+    vertical-align: middle;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .logo {
+    text-align: center;
+  }
+}
