@@ -10,8 +10,8 @@
 
   body {
     background: #FFFFFF;
-    font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #363636;
+    font: 300 16px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smooth: antialiased;
     -webkit-text-size-adjust: 100%;
   }
@@ -20,9 +20,9 @@
 =================*/
 
   a {
+    outline: 0;
     color: #818181;
     text-decoration: none;
-    outline: 0;
   }
   a:hover,
   a:focus {
@@ -44,8 +44,8 @@
     font-style: italic;
   }
   strong {
-    font-weight: bold;
     color: #363636;
+    font-weight: bold;
   }
   small {
     font-size: 85%;
@@ -53,29 +53,29 @@
 
   h1, h2, h3, h4, h5, h6 {
     color: inherit;
-    font-family: Century Gothic, sans-serif;
     font-weight: bold;
+    font-family: Century Gothic, sans-serif;
     line-height: 20px;
   }
   h1 {
+    margin-bottom: 14px;
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 14px;
   }
   h2 {
+    margin-bottom: 10px;
     font-size: 36px;
     line-height: 35px;
-    margin-bottom: 10px;
   }
   h3 {
+    margin-bottom: 8px;
     font-size: 30px;
     line-height: 25px;
-    margin-bottom: 8px;
   }
   h4 {
+    margin-bottom: 4px;
     font-size: 24px;
     line-height: 18px;
-    margin-bottom: 4px;
   }
   h5 {
     font-size: 20px;
@@ -83,25 +83,25 @@
   }
   h6 {
     font-size: 16px;
-    line-height: 4px
+    line-height: 4px;
   }
 
   hr {
-    border: solid #d6d6d6;
-    border-width: 1px 0px 0px;
+    clear: both;
     margin: 10px 0px 30px;
     height: 0px;
-    clear: both;
+    border: solid #d6d6d6;
+    border-width: 1px 0px 0px;
   }
 
   .attention {
-    font-size: 20px;
     font-weight: 300;
+    font-size: 20px;
     line-height: 25px;
   }
   .attention-large {
-    font-size: 50px;
     font-weight: inherit;
+    font-size: 50px;
     line-height: 50px;
   }
 
@@ -153,8 +153,8 @@
 =================*/
 
   .nav {
-    margin-top: 20px;
     float: right;
+    margin-top: 20px;
   }
   .nav ul {
     margin: 0;
@@ -171,10 +171,10 @@
     outline: 0;
   }
   .nav .divider {
-    height: 40px;
     margin: 1px auto;
-    padding-bottom: .10em;
     padding-right: 5px;
+    padding-bottom: .10em;
+    height: 40px;
     border-right: 0px solid #fff;
     border-left: 1px solid #DDD;
   }
@@ -187,12 +187,12 @@
   input[type="submit"],
   input[type="reset"],
   input[type="button"] {
-    background: #eee;
+    margin-bottom: 20px;
+    padding: 1em;
     border: 1px solid #aaa;
     border-radius: 3px;
+    background: #eee;
     color: #363636;
-    padding: 1em;
-    margin-bottom: 20px;
     font-size: 12px;
   }
   .button:hover,
@@ -200,8 +200,8 @@
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover {
-    color: #222;
     background: #ddd;
+    color: #222;
     text-decoration: none;
   }
   .button:active,
@@ -215,8 +215,8 @@
   .button-full {
   display: block;
   margin-bottom: 10px;
-  font-size: 16px;
   width: 100%;
+  font-size: 16px;
   }
   button.button-full:active,
   .button-full:active {
@@ -237,19 +237,19 @@
   input[type="password"],
   textarea,
   select {
+    display: block;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 2px 3px;
+    max-width: 100%;
+    width: 200px;
+    outline: none;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    background: #fff;
+    color: #666;
     font: inherit;
     font-size: 13px;
-    border: 1px solid #d6d6d6;
-    padding: 2px 3px;
-    outline: none;
-    border-radius: 2px;
-    color: #666;
-    margin: 0;
-    width: 200px;
-    max-width: 100%;
-    display: block;
-    background: #fff;
-    margin-bottom: 20px;
   }
   input[type="email"]:focus,
   input[type="text"]:focus,
@@ -284,9 +284,9 @@
   }
   label span,
   legend span {
+    color: #444;
     font-weight: normal;
     font-size: 13px;
-    color: #444;
   }
 
 /*  The Anatomy
@@ -294,9 +294,9 @@
 
   .container {
     position: relative;
-    width: 940px;
     margin: 0 auto;
     padding: 0;
+    width: 940px;
   }
   .row {
     margin-left: -20px;
@@ -323,8 +323,8 @@
   .two,
   .one {
     float: left;
-    min-height: 1px;
     margin-left: 20px;
+    min-height: 1px;
   }
   .twelve { width: 940px; }
   .eleven { width: 860px; }
@@ -445,15 +445,15 @@
 
   /* Nav for portait mobile view */
   .nav {
-    vertical-align: middle;
-    width: 100%;
     margin: 0px auto;
+    width: 100%;
+    vertical-align: middle;
   }
   .nav ul {
-    text-align: center;
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-align: center;
   }
   .logo {
     text-align: center;
